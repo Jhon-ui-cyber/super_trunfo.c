@@ -74,7 +74,7 @@ int main() {
                             (densidadedapopulacao1 > densidadedapopulacao2 ? nome1:nome2 ));
                             
                             
-     printf("%s: %f reais.\n", nome1, densidadedapopulacao1);
+    printf("%s: %f reais.\n", nome1, densidadedapopulacao1);
     printf("%s: %f reais.\n\n", nome2, densidadedapopulacao2);
     printf("Resultado: %s possui o maior PIB per capita.\n\n", 
                             (pibpercapita1 > pibpercapita2 ? nome1:nome2 ));    
