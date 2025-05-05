@@ -3,7 +3,7 @@
 
         //Dados do primeiro jogador
         char mk1[20] = "Scorpion";
-        char poder1[500] = "controlar o fogo, ser um espectro e imortalidade";
+        char poder1[5000] = "controlar o fogo, ser um espectro e imortalidade";
         int forca1 = 10000;
         int inteligencia1 = 5000;
         int agilidade1 = 8000;
@@ -28,7 +28,7 @@
         printf("Logo, são oponentes naturais, porém concordamos que o poder de: %s é superior à: %s \n\n", poder1, poder2);
         
         //Comparação de força: Scorpion vence
-        printf("Iniciando comparação de força entre %s e %s: \n\n");
+        printf("Iniciando comparação de força entre %s e %s: \n\n",mk1,mk2);
         printf("A força de %s é: %d \n", mk1, forca1);
         printf("A força de %s é: %d \n", mk2, forca2);
         printf("%s wins \n\n", mk1);
@@ -48,7 +48,14 @@
         //As passivas não iam ajudar tanta coisa, logo não considerei,mas vou modificar entre as fórmulas        
         
         //Conclusão da comparação, resultado do x1: Scorpion 2x1 Subzero.
-        printf("%s wins, FATALITY!!!", mk1);
+        printf("%s wins, FATALITY!!!\n\n", mk1);
         
+        if (poder1 > poder2)
+        {
+            printf("Scorpion é mais forte\n\n\n\n", mk1);
+        }
+        else
+        printf("Subzero é mais forte\n\n\n\n", mk2);
+
         return 0;
     }
